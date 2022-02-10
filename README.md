@@ -1,5 +1,7 @@
-Desenvolvedor Front End | Analista Soc
+Desenvolvedor Front End | Analista Soc |
 Futuro Full Stack
+
+youtubechanel: https://www.youtube.com/c/ComunidadeConecta
 
 
 - 👋 Hi, I’m @gabriel-logan
