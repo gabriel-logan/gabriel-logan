@@ -16,3 +16,5 @@ You can click the Preview link to take a look at your changes.
 --->
 
 Site com alguns programas pessoais: https://comunidadeconecta.000webhostapp.com/
+
+Discord: https://discord.gg/94rnYDf2n3
