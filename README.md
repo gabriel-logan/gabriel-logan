@@ -1,5 +1,4 @@
-Desenvolvedor Front End | Analista Soc |
-Futuro Full Stack
+Desenvolvedor Full Stack | Analista Soc | 
 
 youtubechanel: https://www.youtube.com/c/ComunidadeConecta
 
