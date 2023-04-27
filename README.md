@@ -16,6 +16,6 @@ You can click the Preview link to take a look at your changes.
 
 Site com alguns programas pessoais: https://gabriel-logan.github.io/Comunidade_Conecta/build/
 
-Site onde testo algumas coisas backend: https://testandonudes.hopto.org/ - ele fica off a maioria do tempo porque eu n tiro dinheiro de arvores (: TA OFF
+Site onde testo algumas coisas backend: [https://testandonudes.hopto.org/](https://minharede.ddns.net/) 
 
 Discord: https://discord.gg/94rnYDf2n3
