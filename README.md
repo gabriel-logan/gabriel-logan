@@ -11,7 +11,7 @@
 
 - 🤝 I’m looking for help with **Things**
 
-- 👨‍💻 All of my projects are available at [https://gabriel-logan.github.io/Comunidade_Conecta/build/](https://gabriel-logan.github.io/Comunidade_Conecta/build/)
+- 👨‍💻 All of my projects are available at [https://comunidadeconecta.com/](https://gabriel-logan.github.io/Comunidade_Conecta/build/)
 
 - 📝 I regularly write articles on [https://minharede.ddns.net](https://minharede.ddns.net)
 
