@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Things**
 
-- 👯 I’m looking to collaborate on **Things**
+- 👯 I’m looking to collaborate: https://gabriel-logan.github.io/multiform-validator/
 
 - 🤝 I’m looking for help with **Things**
 
