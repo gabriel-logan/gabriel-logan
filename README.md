@@ -13,7 +13,9 @@
 
 - 👨‍💻 All of my projects are available at [https://comunidadeconecta.com/](https://comunidadeconecta.com/)
 
-- 📝 I regularly write articles on [https://minharede.ddns.net](https://minharede.ddns.net)
+- Bla bla [My old page](https://gabriel-logan.github.io/Comunidade_Conecta/)
+
+- 📝 I regularly write articles on [Page for download an apk 2Devs](https://gabriel-logan.github.io/2Devs-Mobile/appsDownload.html)
 
 - 💬 Ask me about **Things**
 
