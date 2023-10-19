@@ -13,7 +13,7 @@
 
 - 👨‍💻 All of my projects are available at [https://comunidadeconecta.com/](https://comunidadeconecta.com/)
 
-- Bla bla [My old page](https://gabriel-logan.github.io/Comunidade_Conecta/)
+- Bla bla [My old page](https://gabriel-logan.github.io/2Devs-Web/)
 
 - 📝 I regularly write articles on [Page for download an apk 2Devs](https://gabriel-logan.github.io/2Devs-Mobile/appsDownload.html)
 
