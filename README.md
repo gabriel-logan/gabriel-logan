@@ -13,9 +13,9 @@
 
 - 👨‍💻 All of my projects are available at [https://comunidadeconecta.com/](https://comunidadeconecta.com/)
 
-- Bla bla [My old page](https://gabriel-logan.github.io/2Devs-Web/)
+- Bla bla [My old page](https://2devs.tech)
 
-- 📝 I regularly write articles on [Page for download an apk 2Devs](https://gabriel-logan.github.io/2Devs-Mobile/appsDownload.html)
+- 📝 I regularly write articles on [Page for download an apk 2Devs](https://2devs.tech/ApksDownloads)
 
 - 💬 Ask me about **Things**
 
