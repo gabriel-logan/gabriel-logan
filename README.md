@@ -23,6 +23,11 @@
 
 - 📄 Know about my experiences [youtubechanel: https://www.youtube.com/c/ComunidadeConecta](youtubechanel: https://www.youtube.com/c/ComunidadeConecta)
 
+
+# 📊 GitHub Stats:
+![langs](https://github.com/gabriel-logan/github-stats/blob/actions_branch/generated_images/languagesDarkMode.svg#gh-dark-mode-only)![langslight](https://github.com/gabriel-logan/github-stats/blob/actions_branch/generated_images/languagesLightMode.svg#gh-light-mode-only)
+![overview](https://github.com/gabriel-logan/github-stats/blob/actions_branch/generated_images/overviewDarkMode.svg#gh-dark-mode-only)![overviewlight](https://github.com/gabriel-logan/github-stats/blob/actions_branch/generated_images/overviewLightMode.svg#gh-light-mode-only)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.youtube.com/c/comunidade conecta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="comunidade conecta" height="30" width="40" /></a>
