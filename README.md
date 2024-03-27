@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Things**
 
-- 🌱 I’m currently learning **Things**
+- 🌱 Page made to compress videos: https://video-compressor-sigma.vercel.app/
 
 - 👯 I’m looking to collaborate: https://gabriel-logan.github.io/multiform-validator/
 
