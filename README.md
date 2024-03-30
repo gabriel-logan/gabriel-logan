@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gabriel-logan&label=Profile%20views&color=0e75b6&style=flat" alt="gabriel-logan" /> </p>
 
-- 🔭 I’m currently working on **Things**
+- 🔭 I’m currently working on **My math lib**: https://github.com/gabriel-logan/Math_Lib
 
 - 🌱 Page made to compress videos: https://video-compressor-sigma.vercel.app/
 
