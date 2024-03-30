@@ -11,7 +11,7 @@
 
 - 🤝 I’m looking for help with **Things**
 
-- 👨‍💻 All of my projects are available at [https://comunidadeconecta.com/](https://comunidadeconecta.com/)
+- 👨‍💻 All of my projects are available at https://github.com/gabriel-logan?tab=repositories
 
 - Bla bla [My old page](https://2devs.tech)
 
