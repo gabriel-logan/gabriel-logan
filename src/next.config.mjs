@@ -3,7 +3,10 @@ const nextConfig = {
   output: "export",
   distDir: "../docs",
   assetPrefix: "/gabriel-logan",
-  basePath: "/docs",
+  basePath: "/gabriel-logan",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
