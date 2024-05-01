@@ -314,12 +314,53 @@ export default function Home() {
 				</div>
 			</article>
 
-			<Script src="/assets/js/jquery.min.js" />
-			<Script src="/assets/js/jquery.scrolly.min.js" />
-			<Script src="/assets/js/browser.min.js" />
-			<Script src="/assets/js/breakpoints.min.js" />
-			<Script src="/assets/js/util.js" />
-			<Script src="/assets/js/main.js" />
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/jquery.min.js"
+						: "/assets/js/jquery.min.js"
+				}
+			/>
+
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/jquery.scrolly.min.js"
+						: "/assets/js/jquery.scrolly.min.js"
+				}
+			/>
+
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/browser.min.js"
+						: "/assets/js/browser.min.js"
+				}
+			/>
+
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/breakpoints.min.js"
+						: "/assets/js/breakpoints.min.js"
+				}
+			/>
+
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/util.js"
+						: "/assets/js/util.js"
+				}
+			/>
+
+			<Script
+				src={
+					process.env.NODE_ENV === "production"
+						? "/gabriel-logan/assets/js/main.js"
+						: "/assets/js/main.js"
+				}
+			/>
 		</>
 	);
 }
