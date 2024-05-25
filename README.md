@@ -3,9 +3,9 @@
 
 <h3 align="center">Me: <a href="https://gabriel-logan.github.io/gabriel-logan/" target="_blank">gabriel-logan.github.io</a></h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=gabriel-logan&label=Profile%20views&color=0e75b6&style=flat" alt="gabriel-logan" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=gabriel-logan&label=Profile%20views&color=0e75b6&style=flat" alt="gabriel-logan" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gabriel-logan" alt="gabriel-logan" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gabriel-logan" alt="gabriel-logan" /></a> </p>
 
 - 🔭 I’m currently working on [Math Library](https://github.com/gabriel-logan/Math_Lib)
 
