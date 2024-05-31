@@ -1,0 +1,17 @@
+{
+	"Hello World!": "Olá Mundo!",
+	"Hi. I'm": "Oi. Eu sou",
+	"Learn about what I do": "Aprenda sobre o que eu faço",
+
+	"NavContainer": {
+			"Top": "Topo",
+			"Work": "Trabalho",
+			"Portfolio": "Portfólio",
+			"Contact": "Contato"
+	},
+
+	"Metadata": {
+		"Title": "Gabriel Logan - Portfólio",
+		"Description": "Portfólio de Gabriel Logan, apresentando seu trabalho e projetos."
+	}
+}

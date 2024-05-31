@@ -5,19 +5,22 @@ import Link from "next/link";
 import Script from "next/script";
 import { useState } from "react";
 
-import loganpotter from "../assets/images/loganpotter.png";
-import oldLogan from "../assets/images/oldlogan.png";
-import pic01 from "../assets/images/pic01.jpg";
-import pic02 from "../assets/images/pic02.jpg";
-import pic03 from "../assets/images/pic03.jpg";
-import pic04 from "../assets/images/pic04.jpg";
-import pic05 from "../assets/images/pic05.jpg";
-import pic06 from "../assets/images/pic06.jpg";
+import { useI18n } from "@/locales/client";
 
-import "../assets/css/main.css";
+import loganpotter from "../../assets/images/loganpotter.png";
+import oldLogan from "../../assets/images/oldlogan.png";
+import pic01 from "../../assets/images/pic01.jpg";
+import pic02 from "../../assets/images/pic02.jpg";
+import pic03 from "../../assets/images/pic03.jpg";
+import pic04 from "../../assets/images/pic04.jpg";
+import pic05 from "../../assets/images/pic05.jpg";
+import pic06 from "../../assets/images/pic06.jpg";
+
+import "../../assets/css/main.css";
 
 export default function Home() {
 	const [logan, setLogan] = useState<StaticImageData>(oldLogan);
+	const t = useI18n();
 
 	return (
 		<>
@@ -25,16 +28,16 @@ export default function Home() {
 			<nav id="nav">
 				<ul className="container">
 					<li>
-						<Link href="#top">Top</Link>
+						<Link href="#top">{t("NavContainer.Top")}</Link>
 					</li>
 					<li>
-						<Link href="#work">Work</Link>
+						<Link href="#work">{t("NavContainer.Work")}</Link>
 					</li>
 					<li>
-						<Link href="#portfolio">Portfolio</Link>
+						<Link href="#portfolio">{t("NavContainer.Portfolio")}</Link>
 					</li>
 					<li>
-						<Link href="#contact">Contact</Link>
+						<Link href="#contact">{t("NavContainer.Contact")}</Link>
 					</li>
 				</ul>
 			</nav>
@@ -59,7 +62,7 @@ export default function Home() {
 						<div className="col-8 col-7-large col-12-medium">
 							<header>
 								<h1>
-									Hi. I&apos;m <strong>Gabriel Logan</strong>.
+									{t("Hi. I'm")} <strong>Gabriel Logan</strong>.
 								</h1>
 							</header>
 							<p>
@@ -67,7 +70,7 @@ export default function Home() {
 								sit loren ipsun dolor amet sit loren ipsun dolor amet sit
 							</p>
 							<Link href="#work" className="button large scrolly">
-								Learn about what I do
+								{t("Learn about what I do")}
 							</Link>
 						</div>
 						<p>Under development...</p>
