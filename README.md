@@ -19,7 +19,7 @@
 
 - 👨‍💻 2Devs Apk Downloads [https://2devs.tech/ApksDownloads](https://2devs.tech/ApksDownloads)
 
-- 💬 Ask me about **Things**
+- 🌐 Translate your json files [Azure Translator Page](https://azuretranslatorcode.vercel.app)
 
 - 📫 How to reach me **gabriellogan1717@gmail.com**
 
