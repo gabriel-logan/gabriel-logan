@@ -1,5 +1,5 @@
 <h1 align="center">Hi 🖖, I'm Gabriel Logan</h1>
-<a href="https://gitroll.io/profile/uFl44KMOs8ma4jg4FslV6Np0FY572" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uFl44KMOs8ma4jg4FslV6Np0FY572" alt="GitRoll Profile Badge"/></a>
+<h3 align="center">Full Stack Developer</h3>
 
 <h3 align="center">Me: <a href="https://gabriel-logan.github.io/gabriel-logan/" target="_blank">gabriel-logan.github.io</a></h3>
 
