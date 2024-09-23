@@ -1,5 +1,5 @@
 {
-  "extends": ["universe/web", "next/core-web-vitals"],
+  "extends": ["next/core-web-vitals", "universe/web"],
   "root": true,
 	"rules": {
 		"no-console": "warn"
