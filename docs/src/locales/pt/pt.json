@@ -1,17 +1,48 @@
 {
 	"Hello World!": "Olá Mundo!",
 	"Hi. I'm": "Oi. Eu sou",
-	"Learn about what I do": "Aprenda sobre o que eu faço",
+	"Learn about what I do": "Saiba mais sobre o que eu faço",
+	"See my resume": "Veja meu currículo",
 
 	"NavContainer": {
-			"Top": "Topo",
-			"Work": "Trabalho",
-			"Portfolio": "Portfólio",
-			"Contact": "Contato"
+		"Top": "Topo",
+		"Work": "Trabalho",
+		"Portfolio": "Portfólio",
+		"Contact": "Contato"
 	},
 
 	"Metadata": {
 		"Title": "Gabriel Logan - Portfólio",
-		"Description": "Portfólio de Gabriel Logan, apresentando seu trabalho e projetos."
+		"Description": "Portfólio de Gabriel Logan, mostrando seu trabalho e projetos."
+	},
+
+	"Home": {
+		"Title": "Gabriel Logan",
+		"Subtitle": "Desenvolvedor Full Stack",
+		"Description": "Desenvolvedor Full Stack com mais de 2 anos de experiência em projetos freelancers e de código aberto. Possuo conhecimento avançado em JavaScript, TypeScript e frameworks como ReactJS, React Native e ExpressJS. Trabalho tanto no frontend quanto no backend, criando soluções completas, eficientes e escaláveis, com experiência em NestJS, MySQL, AWS, Docker e arquitetura de microsserviços.",
+		"Here's all the stuff I do": "Aqui está tudo o que eu faço",
+		"All Stuffs I do description": "Aqui estão alguns dos serviços que ofereço. Posso ajudá-lo no desenvolvimento de aplicativos web, aplicativos móveis, bibliotecas e muito mais. Tenho experiência em várias tecnologias e ferramentas, o que me permite criar soluções de alta qualidade para seus projetos.",
+		"Frontend Web Applications": "Aplicações Web Frontend",
+		"Frontend Web Applications description": "Desenvolvimento de aplicações frontend usando ReactJs, Typescript, Nextjs e outras tecnologias.",
+		"Backend Web Applications": "Aplicações Web Backend",
+		"Backend Web Applications description": "Desenvolvimento de aplicações backend usando NodeJs, ExpressJs, NestJs, MySQL, MongoDB e outras tecnologias.",
+		"Mobile Applications": "Aplicativos Móveis",
+		"Mobile Applications description": "Desenvolvimento de aplicativos móveis usando React Native, Typescript e outras tecnologias.",
+		"Wanna see more": "Quer ver mais do meu trabalho? Confira alguns dos meus projetos abaixo.",
+		"See some of my recent work": "Veja alguns dos meus trabalhos recentes",
+		"Here's some stuff I made recently": "Aqui estão algumas coisas que fiz recentemente",
+		"Here's some stuff description": "Aqui estão alguns dos projetos em que trabalhei recentemente. Cada projeto demonstra minhas habilidades e expertise em diferentes áreas do desenvolvimento de software, desde aplicações web frontend e backend até aplicativos móveis e bibliotecas. Sinta-se à vontade para explorá-los e ver a qualidade do meu trabalho.",
+		"Multiform Validator description": "Biblioteca multilíngue criada para validação de diversos campos de formulários, como: email, telefone, senha, CPF, CNPJ, cartão de crédito, números mágicos para validação de mimetype de imagem e muito mais.",
+		"Azure Translator Code description": "Azure Translator Code é uma poderosa biblioteca para traduzir arquivos JSON em vários idiomas usando o serviço Azure Cognitive Translator. Você pode usá-la em seus projetos para tradução.",
+		"Cpf And Cnpj Generator description": "Este pacote npm fornece funções em JavaScript e Python para gerar números válidos de CPF (Cadastro de Pessoas Físicas) e CNPJ (Cadastro Nacional da Pessoa Jurídica) brasileiros.",
+		"DsacJs description": "Uma biblioteca de alto desempenho em JavaScript e TypeScript que oferece um conjunto abrangente de estruturas de dados eficientes. Simplifique a implementação de algoritmos e manipulação de dados com ferramentas otimizadas e fáceis de usar.",
+		"Clean Memory description": "Código em shell script projetado para melhorar o desempenho do sistema, limpando memória temporária não utilizada e cache do sistema. Ajudando a aumentar a eficiência e a responsividade geral do sistema.",
+		"Easy Templates description": "\"easy-templates\" é uma biblioteca que simplifica o processo de criação de diversos templates usando NPX. Automatiza e otimiza a configuração de estruturas de projetos, tornando a criação de templates mais eficiente.",
+		"Wanna see more of my work?": "Quer ver mais do meu trabalho? Confira meu perfil no GitHub para mais",
+		"Get in touch with me": "Entre em contato comigo",
+		"Have me make stuff for you": "Deixe-me fazer algo para você",
+		"Have me make description": "Se você gosta do meu trabalho e tem um projeto com o qual precisa de ajuda, acha que precisa do meu auxílio em algo ou simplesmente quer dizer um 'oi', entre em contato. Ficarei feliz em ajudá-lo.",
+		"Find me on ...": "Encontre-me em ...",
+		"All rights reserved": "Todos os direitos reservados"
 	}
 }

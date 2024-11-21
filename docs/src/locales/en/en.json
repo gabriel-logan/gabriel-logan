@@ -2,6 +2,7 @@
 	"Hello World!": "Hello World!",
 	"Hi. I'm": "Hi. I'm",
 	"Learn about what I do": "Learn about what I do",
+	"See my resume": "See my resume",
 
 	"NavContainer": {
 		"Top": "Top",
@@ -13,5 +14,35 @@
 	"Metadata": {
 		"Title": "Gabriel Logan - Portfolio",
 		"Description": "Gabriel Logan's portfolio, showcasing his work and projects."
+	},
+
+	"Home": {
+		"Title": "Gabriel Logan",
+		"Subtitle": "Full Stack Developer",
+		"Description": "Full Stack Developer with over 2 years of experience in freelance and open-source projects. I have advanced knowledge of JavaScript, TypeScript and frameworks such as ReactJS, React Native and ExpressJS. I work on both the frontend and backend, creating complete, efficient and scalable solutions, with experience in NestJS, MySQL, AWS, Docker and microservices architecture.",
+		"Here's all the stuff I do": "Here's all the stuff I do",
+		"All Stuffs I do description": "Here are some of the services I offer. I can help you with the development of web applications, mobile applications, libraries, and much more. I have experience in various technologies and tools, which allows me to create high-quality solutions for your projects.",
+		"Frontend Web Applications": "Frontend Web Applications",
+		"Frontend Web Applications description": "Frontend application development using ReactJs, Typescript, Nextjs and other technologies.",
+		"Backend Web Applications": "Backend Web Applications",
+		"Backend Web Applications description": "Backend application development using NodeJs, ExpressJs, NestJs, MySQL, MongoDB and other technologies.",
+		"Mobile Applications": "Mobile Applications",
+		"Mobile Applications description": "Mobile application development using React Native, Typescript and other technologies.",
+		"Wanna see more": "Wanna see more of my work? Check out some of my projects below.",
+		"See some of my recent work": "See some of my recent work",
+		"Here's some stuff I made recently": "Here's some stuff I made recently",
+		"Here's some stuff description": "Here are some of the projects I have worked on recently. Each project showcases my skills and expertise in different areas of software development, from frontend and backend web applications to mobile applications and libraries. Feel free to explore them and see the quality of my work.",
+		"Multiform Validator description": "Multilingual library made for validation, various form fields, such as: email, telephone, password, cpf, cnpj, credit card, magic numbers for image mimetype validation and much more.",
+		"Azure Translator Code description": "Azure Translator Code is a powerful library for translating JSON files into multiple languages using the Azure Cognitive Translator service. You can use it in your projects to translate.",
+		"Cpf And Cnpj Generator description": "This npm package provides JavaScript and Python functions to generate valid Brazilian CPF (Cadastro de Pessoas Físicas) and CNPJ (Cadastro Nacional da Pessoa Jurídica) numbers.",
+		"DsacJs description": "A high-performance JavaScript and TypeScript library offering a comprehensive set of efficient data structures. Simplify your algorithm implementation and data manipulation with optimized, easy-to-use tools.",
+		"Clean Memory description": "Shell script code designed to streamline system performance by clearing unused temporary memory and system cache. Helping to enhance overall system efficiency and responsiveness.",
+		"Easy Templates description": "\"easy-templates\" is a library that simplifies the process of creating various templates using NPX. It automates and streamlines the setup of project structures, making template creation more efficient.",
+		"Wanna see more of my work?": "Wanna see more of my work? Check out my GitHub profile for more",
+		"Get in touch with me": "Get in touch with me",
+		"Have me make stuff for you": "Have me make stuff for you",
+		"Have me make description": "If you like my work and have a project you need help with, think you need my help with something or just fancy saying hey, then get in touch. I'll be happy to help you.",
+		"Find me on ...": "Find me on ...",
+		"All rights reserved": "All rights reserved"
 	}
 }

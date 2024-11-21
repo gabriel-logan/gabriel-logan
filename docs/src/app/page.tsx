@@ -85,10 +85,13 @@ export default function Home() {
 			<article id="work" className="wrapper style2">
 				<div className="container">
 					<header>
-						<h2>Here&apos;s all the stuff I do.</h2>
+						<h2>Here&apos;s all the stuff I do</h2>
 						<p>
-							Ornare nulla proin odio consequat sapien vestibulum ipsum sed
-							lorem.
+							Here are some of the services I offer. I can help you with the
+							development of web applications, mobile applications, libraries,
+							and much more. I have experience in various technologies and
+							tools, which allows me to create high-quality solutions for your
+							projects.
 						</p>
 					</header>
 					<div className="row aln-center">
@@ -138,7 +141,7 @@ export default function Home() {
 			<article id="portfolio" className="wrapper style3">
 				<div className="container">
 					<header>
-						<h2>Here&apos;s some stuff I made recently.</h2>
+						<h2>Here&apos;s some stuff I made recently</h2>
 						<p>
 							Here are some of the projects I have worked on recently. Each
 							project showcases my skills and expertise in different areas of
@@ -335,7 +338,7 @@ export default function Home() {
 			<article id="contact" className="wrapper style4">
 				<div className="medium container">
 					<header>
-						<h2>Have me make stuff for you.</h2>
+						<h2>Have me make stuff for you</h2>
 						<p>
 							If you like my work and have a project you need help with, think
 							you need my help with something or just fancy saying hey, then get
