@@ -1,0 +1,50 @@
+{
+	"Hello World!": "Hallo Welt!",
+	"Hi. I'm": "Hallo. Ich bin",
+	"Learn about what I do": "Erfahren Sie mehr über das, was ich tue",
+	"See my resume": "Siehe meinen Lebenslauf",
+
+	"NavContainer": {
+		"Top": "Startseite",
+		"Work": "Arbeit",
+		"Portfolio": "Portfolio",
+		"Contact": "Kontakt"
+	},
+
+	"Metadata": {
+		"Title": "Gabriel Logan - Portfolio",
+		"Description": "Das Portfolio von Gabriel Logan, das seine Arbeit und Projekte präsentiert."
+	},
+
+	"Home": {
+		"Title": "Gabriel Logan",
+		"Subtitle": "Full-Stack-Entwickler",
+		"Description": "Full-Stack-Entwickler mit über 2 Jahren Erfahrung in freiberuflichen und Open-Source-Projekten. Ich habe fortgeschrittene Kenntnisse in JavaScript, TypeScript und Frameworks wie ReactJS, React Native und ExpressJS. Ich arbeite sowohl im Frontend als auch im Backend und erstelle vollständige, effiziente und skalierbare Lösungen mit Erfahrung in NestJS, MySQL, AWS, Docker und Mikroservices-Architektur.",
+		"Here's all the stuff I do": "Hier ist alles, was ich mache",
+		"All Stuffs I do description": "Hier sind einige der Dienstleistungen, die ich anbiete. Ich kann Ihnen bei der Entwicklung von Webanwendungen, mobilen Anwendungen, Bibliotheken und vielem mehr helfen. Ich habe Erfahrung mit verschiedenen Technologien und Tools, was es mir ermöglicht, hochwertige Lösungen für Ihre Projekte zu schaffen.",
+		"Frontend Web Applications": "Frontend-Webanwendungen",
+		"Frontend Web Applications description": "Entwicklung von Frontend-Anwendungen mit ReactJs, TypeScript, Nextjs und anderen Technologien.",
+		"Backend Web Applications": "Backend-Webanwendungen",
+		"Backend Web Applications description": "Entwicklung von Backend-Anwendungen mit NodeJs, ExpressJs, NestJs, MySQL, MongoDB und anderen Technologien.",
+		"Mobile Applications": "Mobile Anwendungen",
+		"Mobile Applications description": "Entwicklung mobiler Anwendungen mit React Native, TypeScript und anderen Technologien.",
+		"Wanna see more": "Möchten Sie mehr von meiner Arbeit sehen? Schauen Sie sich unten einige meiner Projekte an.",
+		"See some of my recent work": "Sehen Sie sich einige meiner aktuellen Arbeiten an",
+		"Here's some stuff I made recently": "Hier sind einige Dinge, die ich kürzlich gemacht habe",
+		"Here's some stuff description": "Hier sind einige der Projekte, an denen ich kürzlich gearbeitet habe. Jedes Projekt zeigt meine Fähigkeiten und mein Fachwissen in verschiedenen Bereichen der Softwareentwicklung, von Frontend- und Backend-Webanwendungen bis hin zu mobilen Anwendungen und Bibliotheken. Fühlen Sie sich frei, sie zu erkunden und die Qualität meiner Arbeit zu sehen.",
+		"Multiform Validator description": "Mehrsprachige Bibliothek für die Validierung verschiedener Formularfelder wie: E-Mail, Telefon, Passwort, CPF, CNPJ, Kreditkarte, magische Zahlen für die Bild-Mimetype-Validierung und vieles mehr.",
+		"Azure Translator Code description": "Azure Translator Code ist eine leistungsstarke Bibliothek zum Übersetzen von JSON-Dateien in mehrere Sprachen mithilfe des Azure Cognitive Translator-Dienstes. Sie können es in Ihren Projekten verwenden, um Übersetzungen durchzuführen.",
+		"Cpf And Cnpj Generator description": "Dieses npm-Paket bietet JavaScript- und Python-Funktionen zum Generieren gültiger brasilianischer CPF- (Cadastro de Pessoas Físicas) und CNPJ- (Cadastro Nacional da Pessoa Jurídica) Nummern.",
+		"DsacJs description": "Eine leistungsstarke JavaScript- und TypeScript-Bibliothek, die eine umfassende Sammlung effizienter Datenstrukturen bietet. Vereinfachen Sie die Implementierung von Algorithmen und die Datenmanipulation mit optimierten, benutzerfreundlichen Tools.",
+		"Clean Memory description": "Shell-Skript-Code zur Optimierung der Systemleistung durch das Löschen ungenutzter temporärer Speicher und System-Cache. Dies trägt zur Verbesserung der Gesamteffizienz und Reaktionsfähigkeit des Systems bei.",
+		"Easy Templates description": "\"easy-templates\" ist eine Bibliothek, die den Prozess der Erstellung verschiedener Vorlagen mit NPX vereinfacht. Sie automatisiert und optimiert die Einrichtung von Projektstrukturen, wodurch die Erstellung von Vorlagen effizienter wird.",
+		"Wanna see more of my work?": "Möchten Sie mehr von meiner Arbeit sehen? Schauen Sie sich mein GitHub-Profil für weitere Informationen an.",
+		"Get in touch with me": "Kontaktieren Sie mich",
+		"Have me make stuff for you": "Lassen Sie mich etwas für Sie machen",
+		"Have me make description": "Wenn Ihnen meine Arbeit gefällt und Sie ein Projekt haben, bei dem Sie Hilfe benötigen, denken, dass Sie meine Unterstützung bei etwas brauchen, oder einfach nur Hallo sagen möchten, dann kontaktieren Sie mich. Ich helfe Ihnen gerne.",
+		"Find me on ...": "Finden Sie mich auf ...",
+		"All rights reserved": "Alle Rechte vorbehalten"
+	},
+
+	"by": "von"
+}
