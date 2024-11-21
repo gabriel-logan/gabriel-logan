@@ -55,6 +55,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<meta name="mobile-web-app-capable" content="yes" />
+			</head>
 			<body className={`${inter.className} is-preload`}>{children}</body>
 		</html>
 	);

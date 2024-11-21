@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Script from "next/script";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import loganpotter from "../assets/images/loganpotter.png";
 import oldLogan from "../assets/images/oldlogan.png";
@@ -17,7 +17,9 @@ export default function Home() {
 	const [logan, setLogan] = useState<StaticImageData>(oldLogan);
 	const router = useRouter();
 
-	router.replace("/en");
+	useEffect(() => {
+		router.replace("/en");
+	}, []);
 
 	return (
 		<>
