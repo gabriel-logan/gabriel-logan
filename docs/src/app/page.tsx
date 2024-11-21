@@ -8,11 +8,7 @@ import { useState } from "react";
 import loganpotter from "../assets/images/loganpotter.png";
 import oldLogan from "../assets/images/oldlogan.png";
 import pic01 from "../assets/images/pic01.jpg";
-import pic02 from "../assets/images/pic02.jpg";
-import pic03 from "../assets/images/pic03.jpg";
-import pic04 from "../assets/images/pic04.jpg";
 import pic05 from "../assets/images/pic05.jpg";
-import pic06 from "../assets/images/pic06.jpg";
 
 import "../assets/css/main.css";
 
@@ -144,53 +140,133 @@ export default function Home() {
 					<header>
 						<h2>Here&apos;s some stuff I made recently.</h2>
 						<p>
-							Proin odio consequat sapien vestibulum consequat lorem dolore
-							feugiat.
+							Here are some of the projects I have worked on recently. Each
+							project showcases my skills and expertise in different areas of
+							software development, from frontend and backend web applications
+							to mobile applications and libraries. Feel free to explore them
+							and see the quality of my work.
 						</p>
 					</header>
 					<div className="row">
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic01} alt="pic01" />
+								<Link
+									href="https://multiformvalidator.netlify.app"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://multiformvalidator.netlify.app/opengraph-image.png"
+										alt="pic01"
+										width={0}
+										height={0}
+										className="max-h-56 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Magna feugiat</Link>
+									<Link
+										href="https://multiformvalidator.netlify.app"
+										target="_blank"
+									>
+										Multiform Validator
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									Multilingual library made for validation, various form fields,
+									such as: email, telephone, password, cpf, cnpj, credit card,
+									magic numbers for image mimetype validation and much more.
+								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic02} alt="pic02" />
+								<Link
+									href="https://azuretranslatorcode.vercel.app"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://azuretranslatorcode.vercel.app/logo.png"
+										alt="pic02"
+										width={0}
+										height={0}
+										className="max-h-56 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Veroeros primis</Link>
+									<Link
+										href="https://azuretranslatorcode.vercel.app"
+										target="_blank"
+									>
+										Azure Translator Code
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									Azure Translator Code is a powerful library for translating
+									JSON files into multiple languages using the Azure Cognitive
+									Translator service.
+								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic03} alt="pic03" />
+								<Link
+									href="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido/18-Fkfa6iXNuTXkMdu.png"
+										alt="pic03"
+										width={0}
+										height={0}
+										className="max-h-56 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Lorem ipsum</Link>
+									<Link
+										href="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido"
+										target="_blank"
+									>
+										Cpf and Cnpj Generator
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									This npm package provides JavaScript and Python functions to
+									generate valid Brazilian CPF (Cadastro de Pessoas Físicas) and
+									CNPJ (Cadastro Nacional da Pessoa Jurídica) numbers.
+								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic04} alt="pic04" />
+								<Link
+									href="https://gabriel-logan.github.io/DsacJs"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://gabriel-logan.github.io/DsacJs/logo-transparent.png"
+										alt="pic04"
+										width={0}
+										height={0}
+										className="max-h-56 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Tempus dolore</Link>
+									<Link
+										href="https://gabriel-logan.github.io/DsacJs"
+										target="_blank"
+									>
+										DsacJs
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									A high-performance JavaScript and TypeScript library offering
+									a comprehensive set of efficient data structures. Simplify
+									your algorithm implementation and data manipulation with
+									optimized, easy-to-use tools.
+								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
@@ -199,20 +275,28 @@ export default function Home() {
 									<Image src={pic05} alt="pic05" />
 								</Link>
 								<h3>
-									<Link href="#">Feugiat aliquam</Link>
+									<Link href="#">Clean Memory</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									Shell script command to clear unused temporary memory and
+									system cache. Clean RAM memory.
+								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
 								<Link href="#" className="image featured">
-									<Image src={pic06} alt="pic06" />
+									<Image src={pic01} alt="pic01" />
 								</Link>
 								<h3>
-									<Link href="#">Sed amet ornare</Link>
+									<Link href="#">Easy Templates</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>
+									&ldquo;easy-templates&ldquo; is a library that simplifies the
+									process of creating various templates using NPX. It automates
+									and streamlines the setup of project structures, making
+									template creation more efficient.
+								</p>
 							</article>
 						</div>
 					</div>
