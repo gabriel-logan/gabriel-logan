@@ -204,7 +204,8 @@ export default function Home() {
 								<p>
 									Azure Translator Code is a powerful library for translating
 									JSON files into multiple languages using the Azure Cognitive
-									Translator service.
+									Translator service. You can use it in your projects to
+									translate.
 								</p>
 							</article>
 						</div>
@@ -271,25 +272,44 @@ export default function Home() {
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
+								<Link
+									href="https://github.com/gabriel-logan/clean-memory"
+									target="_blank"
+									className="image featured"
+								>
 									<Image src={pic05} alt="pic05" />
 								</Link>
 								<h3>
-									<Link href="#">Clean Memory</Link>
+									<Link
+										href="https://github.com/gabriel-logan/clean-memory"
+										target="_blank"
+									>
+										Clean Memory
+									</Link>
 								</h3>
 								<p>
-									Shell script command to clear unused temporary memory and
-									system cache. Clean RAM memory.
+									Shell script code designed to streamline system performance by
+									clearing unused temporary memory and system cache. Helping to
+									enhance overall system efficiency and responsiveness.
 								</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<article className="box style2">
-								<Link href="#" className="image featured">
+								<Link
+									href="https://github.com/gabriel-logan/easy-templates"
+									target="_blank"
+									className="image featured"
+								>
 									<Image src={pic01} alt="pic01" />
 								</Link>
 								<h3>
-									<Link href="#">Easy Templates</Link>
+									<Link
+										href="https://github.com/gabriel-logan/easy-templates"
+										target="_blank"
+									>
+										Easy Templates
+									</Link>
 								</h3>
 								<p>
 									&ldquo;easy-templates&ldquo; is a library that simplifies the
