@@ -149,7 +149,7 @@ export default function Home() {
 					</header>
 					<div className="row">
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://multiformvalidator.netlify.app"
 									target="_blank"
@@ -157,10 +157,10 @@ export default function Home() {
 								>
 									<Image
 										src="https://multiformvalidator.netlify.app/opengraph-image.png"
-										alt="pic01"
+										alt="multiformvalidator"
 										width={0}
 										height={0}
-										className="max-h-56 w-auto"
+										className="max-h-52 w-auto"
 									/>
 								</Link>
 								<h3>
@@ -179,7 +179,7 @@ export default function Home() {
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://azuretranslatorcode.vercel.app"
 									target="_blank"
@@ -190,7 +190,7 @@ export default function Home() {
 										alt="pic02"
 										width={0}
 										height={0}
-										className="max-h-56 w-auto"
+										className="max-h-52 w-auto"
 									/>
 								</Link>
 								<h3>
@@ -210,7 +210,7 @@ export default function Home() {
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido"
 									target="_blank"
@@ -221,7 +221,7 @@ export default function Home() {
 										alt="pic03"
 										width={0}
 										height={0}
-										className="max-h-56 w-auto"
+										className="max-h-52 w-auto"
 									/>
 								</Link>
 								<h3>
@@ -240,7 +240,7 @@ export default function Home() {
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://gabriel-logan.github.io/DsacJs"
 									target="_blank"
@@ -251,7 +251,7 @@ export default function Home() {
 										alt="pic04"
 										width={0}
 										height={0}
-										className="max-h-56 w-auto"
+										className="max-h-52 w-auto"
 									/>
 								</Link>
 								<h3>
@@ -271,7 +271,7 @@ export default function Home() {
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://github.com/gabriel-logan/clean-memory"
 									target="_blank"
@@ -295,7 +295,7 @@ export default function Home() {
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
+							<article className="box style2 lg:h-full">
 								<Link
 									href="https://github.com/gabriel-logan/easy-templates"
 									target="_blank"
@@ -405,6 +405,7 @@ export default function Home() {
 									<Link
 										href="https://play.google.com/store/apps/dev?id=5118283462925344777"
 										className="icon brands fa-google-plus"
+										target="_blank"
 									>
 										<span className="label">Google+</span>
 									</Link>
@@ -413,14 +414,19 @@ export default function Home() {
 									<Link
 										href="https://github.com/gabriel-logan"
 										className="icon brands fa-github"
+										target="_blank"
 									>
 										<span className="label">Github</span>
 									</Link>
 								</li>
 								{/*<!--*/}
 								<li>
-									<Link href="#" className="icon brands fa-youtube">
-										<span className="label">YouTube</span>
+									<Link
+										href="/full-stack-developer-resume-gabriellogan.pdf"
+										target="_blank"
+										className="icon brands fa-dochub"
+									>
+										<span className="label">Resume</span>
 									</Link>
 								</li>
 								{/*-->*/}
