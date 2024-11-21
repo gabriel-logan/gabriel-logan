@@ -5,22 +5,19 @@ import Link from "next/link";
 import Script from "next/script";
 import { useState } from "react";
 
-import { useI18n } from "@/locales/client";
+import { useI18n, useScopedI18n } from "@/locales/client";
 
 import loganpotter from "../../assets/images/loganpotter.png";
 import oldLogan from "../../assets/images/oldlogan.png";
 import pic01 from "../../assets/images/pic01.jpg";
-import pic02 from "../../assets/images/pic02.jpg";
-import pic03 from "../../assets/images/pic03.jpg";
-import pic04 from "../../assets/images/pic04.jpg";
 import pic05 from "../../assets/images/pic05.jpg";
-import pic06 from "../../assets/images/pic06.jpg";
 
 import "../../assets/css/main.css";
 
 export default function Home() {
 	const [logan, setLogan] = useState<StaticImageData>(oldLogan);
 	const t = useI18n();
+	const homeScopeT = useScopedI18n("Home");
 
 	return (
 		<>
@@ -65,15 +62,17 @@ export default function Home() {
 									{t("Hi. I'm")} <strong>Gabriel Logan</strong>.
 								</h1>
 							</header>
-							<p>
-								And this is <strong>Miniport</strong>, loren ipsun dolor amet
-								sit loren ipsun dolor amet sit loren ipsun dolor amet sit
-							</p>
+							<p>{homeScopeT("Description")}</p>
 							<Link href="#work" className="button large scrolly">
 								{t("Learn about what I do")}
 							</Link>
 						</div>
-						<p>Under development...</p>
+						<Link
+							href="/full-stack-developer-resume-gabriellogan.pdf"
+							className="w-full text-center text-xl"
+						>
+							{t("See my resume")}
+						</Link>
 					</div>
 				</div>
 			</article>
@@ -82,45 +81,36 @@ export default function Home() {
 			<article id="work" className="wrapper style2">
 				<div className="container">
 					<header>
-						<h2>Here&apos;s all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+						<h2>{homeScopeT("Here's all the stuff I do")}</h2>
+						<p>{homeScopeT("All Stuffs I do description")}</p>
 					</header>
 					<div className="row aln-center">
 						<div className="col-4 col-6-medium col-12-small">
 							<section className="box style1">
 								<span className="icon featured fa-comments" />
-								<h3>Consequat lorem</h3>
-								<p>
-									Ornare nulla proin odio consequat sapien vestibulum ipsum
-									primis sed amet consequat lorem dolore.
-								</p>
+								<h3>{homeScopeT("Frontend Web Applications")}</h3>
+								<p>{homeScopeT("Frontend Web Applications description")}</p>
 							</section>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<section className="box style1">
 								<span className="icon solid featured fa-camera-retro" />
-								<h3>Lorem dolor tempus</h3>
-								<p>
-									Ornare nulla proin odio consequat sapien vestibulum ipsum
-									primis sed amet consequat lorem dolore.
-								</p>
+								<h3>{homeScopeT("Backend Web Applications")}</h3>
+								<p>{homeScopeT("Backend Web Applications description")}</p>
 							</section>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
 							<section className="box style1">
 								<span className="icon featured fa-thumbs-up" />
-								<h3>Feugiat posuere</h3>
-								<p>
-									Ornare nulla proin odio consequat sapien vestibulum ipsum
-									primis sed amet consequat lorem dolore.
-								</p>
+								<h3>{homeScopeT("Mobile Applications")}</h3>
+								<p>{homeScopeT("Mobile Applications description")}</p>
 							</section>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<p>{homeScopeT("Wanna see more")}</p>
 						<Link href="#portfolio" className="button large scrolly">
-							See some of my recent work
+							{homeScopeT("See some of my recent work")}
 						</Link>
 					</footer>
 				</div>
@@ -130,84 +120,159 @@ export default function Home() {
 			<article id="portfolio" className="wrapper style3">
 				<div className="container">
 					<header>
-						<h2>Here&apos;s some stuff I made recently.</h2>
-						<p>
-							Proin odio consequat sapien vestibulum consequat lorem dolore
-							feugiat.
-						</p>
+						<h2>{homeScopeT("Here's some stuff I made recently")}</h2>
+						<p>{homeScopeT("Here's some stuff description")}</p>
 					</header>
 					<div className="row">
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic01} alt="pic01" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://multiformvalidator.netlify.app"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://multiformvalidator.netlify.app/opengraph-image.png"
+										alt="multiformvalidator"
+										width={0}
+										height={0}
+										className="max-h-52 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Magna feugiat</Link>
+									<Link
+										href="https://multiformvalidator.netlify.app"
+										target="_blank"
+									>
+										Multiform Validator
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("Multiform Validator description")}</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic02} alt="pic02" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://azuretranslatorcode.vercel.app"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://azuretranslatorcode.vercel.app/logo.png"
+										alt="azuretranslatorcode"
+										width={0}
+										height={0}
+										className="max-h-52 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Veroeros primis</Link>
+									<Link
+										href="https://azuretranslatorcode.vercel.app"
+										target="_blank"
+									>
+										Azure Translator Code
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("Azure Translator Code description")}</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic03} alt="pic03" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido/18-Fkfa6iXNuTXkMdu.png"
+										alt="cpf-cnpj-generator"
+										width={0}
+										height={0}
+										className="max-h-52 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Lorem ipsum</Link>
+									<Link
+										href="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido"
+										target="_blank"
+									>
+										Cpf and Cnpj Generator
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("Cpf And Cnpj Generator description")}</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic04} alt="pic04" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://gabriel-logan.github.io/DsacJs"
+									target="_blank"
+									className="image featured"
+								>
+									<Image
+										src="https://gabriel-logan.github.io/DsacJs/logo-transparent.png"
+										alt="dsacjs"
+										width={0}
+										height={0}
+										className="max-h-52 w-auto"
+									/>
 								</Link>
 								<h3>
-									<Link href="#">Tempus dolore</Link>
+									<Link
+										href="https://gabriel-logan.github.io/DsacJs"
+										target="_blank"
+									>
+										DsacJs
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("DsacJs description")}</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic05} alt="pic05" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://github.com/gabriel-logan/clean-memory"
+									target="_blank"
+									className="image featured"
+								>
+									<Image src={pic05} alt="clean-memory" />
 								</Link>
 								<h3>
-									<Link href="#">Feugiat aliquam</Link>
+									<Link
+										href="https://github.com/gabriel-logan/clean-memory"
+										target="_blank"
+									>
+										Clean Memory
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("Clean Memory description")}</p>
 							</article>
 						</div>
 						<div className="col-4 col-6-medium col-12-small">
-							<article className="box style2">
-								<Link href="#" className="image featured">
-									<Image src={pic06} alt="pic06" />
+							<article className="box style2 lg:h-full">
+								<Link
+									href="https://github.com/gabriel-logan/easy-templates"
+									target="_blank"
+									className="image featured"
+								>
+									<Image src={pic01} alt="easy-templates" />
 								</Link>
 								<h3>
-									<Link href="#">Sed amet ornare</Link>
+									<Link
+										href="https://github.com/gabriel-logan/easy-templates"
+										target="_blank"
+									>
+										Easy Templates
+									</Link>
 								</h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<p>{homeScopeT("Easy Templates description")}</p>
 							</article>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<p>{homeScopeT("Wanna see more of my work?")}</p>
 						<Link href="#contact" className="button large scrolly">
-							Get in touch with me
+							{homeScopeT("Get in touch with me")}
 						</Link>
 					</footer>
 				</div>
@@ -217,8 +282,8 @@ export default function Home() {
 			<article id="contact" className="wrapper style4">
 				<div className="medium container">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h2>{homeScopeT("Have me make stuff for you")}</h2>
+						<p>{homeScopeT("Have me make description")}</p>
 					</header>
 					<div className="row">
 						{/**
@@ -277,10 +342,14 @@ export default function Home() {
 						 */}
 						<div className="col-12 flex flex-col">
 							<hr />
-							<h3>Find me on ...</h3>
+							<h3>{homeScopeT("Find me on ...")}</h3>
 							<ul className="social">
 								<li>
-									<Link href="#" className="icon brands fa-google-plus">
+									<Link
+										href="https://play.google.com/store/apps/dev?id=5118283462925344777"
+										className="icon brands fa-google-plus"
+										target="_blank"
+									>
 										<span className="label">Google+</span>
 									</Link>
 								</li>
@@ -288,19 +357,19 @@ export default function Home() {
 									<Link
 										href="https://github.com/gabriel-logan"
 										className="icon brands fa-github"
+										target="_blank"
 									>
 										<span className="label">Github</span>
 									</Link>
 								</li>
 								{/*<!--*/}
 								<li>
-									<Link href="#" className="icon brands fa-youtube">
-										<span className="label">YouTube</span>
-									</Link>
-								</li>
-								<li>
-									<Link href="#" className="icon brands fa-vimeo">
-										<span className="label">Vimeo</span>
+									<Link
+										href="/full-stack-developer-resume-gabriellogan.pdf"
+										target="_blank"
+										className="icon brands fa-dochub"
+									>
+										<span className="label">Resume</span>
 									</Link>
 								</li>
 								{/*-->*/}
@@ -310,7 +379,7 @@ export default function Home() {
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li>
+							<li>&copy; {homeScopeT("All rights reserved")}</li>
 							<li>By: Gabriel Logan</li>
 						</ul>
 					</footer>
