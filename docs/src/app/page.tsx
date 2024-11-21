@@ -187,7 +187,7 @@ export default function Home() {
 								>
 									<Image
 										src="https://azuretranslatorcode.vercel.app/logo.png"
-										alt="pic02"
+										alt="azuretranslatorcode"
 										width={0}
 										height={0}
 										className="max-h-52 w-auto"
@@ -218,7 +218,7 @@ export default function Home() {
 								>
 									<Image
 										src="https://gabriel-logan.github.io/Gerador-CPF-e-CNPJ-valido/18-Fkfa6iXNuTXkMdu.png"
-										alt="pic03"
+										alt="cpf-cnpj-generator"
 										width={0}
 										height={0}
 										className="max-h-52 w-auto"
@@ -248,7 +248,7 @@ export default function Home() {
 								>
 									<Image
 										src="https://gabriel-logan.github.io/DsacJs/logo-transparent.png"
-										alt="pic04"
+										alt="dsacjs"
 										width={0}
 										height={0}
 										className="max-h-52 w-auto"
@@ -277,7 +277,7 @@ export default function Home() {
 									target="_blank"
 									className="image featured"
 								>
-									<Image src={pic05} alt="pic05" />
+									<Image src={pic05} alt="clean-memory" />
 								</Link>
 								<h3>
 									<Link
@@ -301,7 +301,7 @@ export default function Home() {
 									target="_blank"
 									className="image featured"
 								>
-									<Image src={pic01} alt="pic01" />
+									<Image src={pic01} alt="easy-templates" />
 								</Link>
 								<h3>
 									<Link
