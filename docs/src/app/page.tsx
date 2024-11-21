@@ -437,7 +437,12 @@ export default function Home() {
 					<footer>
 						<ul id="copyright">
 							<li>&copy; All rights reserved.</li>
-							<li>By: Gabriel Logan</li>
+							<li>
+								By:{" "}
+								<Link href="https://github.com/gabriel-logan" target="_blank">
+									Gabriel Logan
+								</Link>
+							</li>
 						</ul>
 					</footer>
 				</div>
