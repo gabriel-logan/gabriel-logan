@@ -1,0 +1,88 @@
+$ 1 0.000005 10.20027730826997 44 5 50 5e-11
+L 176 0 144 0 2 0 false 5 0
+L 144 64 144 32 2 0 false 5 0
+419 -336 224 -288 224 4096 16
+x -703 -41 133 -38 6 32 Gabriel\sLogan\sFull\sAdder\sCalc\s15\sBits\sInput,\s16\sBits\sOutput
+x -598 274 -345 277 4 32 Decimal\sResult\s->
+x 201 188 429 191 4 32 <-\sBinary\sResult
+x -103 333 3 336 4 20 Thank\sYou\s!
+x -868 5 -783 8 4 20 Input\s1\s->
+x -869 37 -784 40 4 20 Input\s2\s->
+. Full\sAdder 1 3 2 5 carry\sin 2 1 0 carry\sout 6 1 3 input\s1 7 0 2 input\s2 1 1 2 sum 8 0 3 OrGateElm\s4\s5\s6\rAndGateElm\s1\s7\s4\rAndGateElm\s2\s3\s5\rXorGateElm\s2\s3\s8\rXorGateElm\s1\s7\s3 0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5
+. Half\sAdder 1 3 2 4 carry\sout 3 1 3 input\s1 2 0 2 input\s2 1 1 2 sum 4 0 3 AndGateElm\s1\s2\s3\rXorGateElm\s1\s2\s4 0\\s2\\s0\\s5\s0\\s2\\s0\\s5
+. 15\sBit\sAdder 1 2 30 46 A1 100 0 2 A2 101 1 2 B1 94 2 2 B2 95 3 2 C1 88 4 2 C2 89 5 2 D1 81 6 2 D2 82 7 2 E1 74 8 2 E2 75 9 2 F1 67 10 2 F2 68 11 2 G1 60 12 2 G2 61 13 2 H1 53 14 2 H2 54 15 2 I1 33 16 2 I2 34 17 2 J1 40 18 2 J2 41 19 2 K1 46 20 2 K2 47 21 2 L1 25 22 2 L2 26 23 2 M1 18 24 2 M2 19 25 2 N1 11 26 2 N2 12 27 2 O1 4 28 2 O2 5 29 2 sum\s0 102 0 3 sum\s1 96 1 3 sum\s10 48 10 3 sum\s11 27 11 3 sum\s12 20 12 3 sum\s13 13 13 3 sum\s14 6 14 3 sum\s15 3 15 3 sum\s2 90 2 3 sum\s3 83 3 3 sum\s4 76 4 3 sum\s5 69 5 3 sum\s6 62 6 3 sum\s7 55 7 3 sum\s8 35 8 3 sum\s9 42 9 3 CustomCompositeElm\s2\s3\s4\s5\s6\rCustomCompositeElm\s10\s2\s11\s12\s13\rCustomCompositeElm\s17\s10\s18\s19\s20\rCustomCompositeElm\s24\s17\s25\s26\s27\rCustomCompositeElm\s31\s32\s33\s34\s35\rCustomCompositeElm\s32\s39\s40\s41\s42\rCustomCompositeElm\s39\s24\s46\s47\s48\rCustomCompositeElm\s52\s31\s53\s54\s55\rCustomCompositeElm\s59\s52\s60\s61\s62\rCustomCompositeElm\s66\s59\s67\s68\s69\rCustomCompositeElm\s73\s66\s74\s75\s76\rCustomCompositeElm\s80\s73\s81\s82\s83\rCustomCompositeElm\s87\s80\s88\s89\s90\rCustomCompositeElm\s1\s87\s94\s95\s96\rCustomCompositeElm\s1\s100\s101\s102 1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sFull\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5\s1\\sHalf\\\\sAdder\\s0\\\\s2\\\\s0\\\\s5\\s0\\\\s2\\\\s0\\\\s5
+410 -784 128 -544 176 5121 15\sBit\sAdder 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sFull\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5 1\sHalf\\sAdder\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5
+M -304 192 -304 176 2 2.5
+M -208 192 -208 176 2 2.5
+M -240 192 -240 176 2 2.5
+M -272 192 -272 176 2 2.5
+M -176 192 -176 176 2 2.5
+M -144 192 -144 176 2 2.5
+M -112 192 -112 176 2 2.5
+M 176 192 176 176 2 2.5
+M 144 192 144 176 2 2.5
+M 112 192 112 176 2 2.5
+M 16 192 16 176 2 2.5
+M 48 192 48 176 2 2.5
+M 80 192 80 176 2 2.5
+M -16 192 -16 176 2 2.5
+M -48 192 -48 176 2 2.5
+M -80 192 -80 176 2 2.5
+w 144 64 144 96 0
+w 176 0 176 96 0
+w 112 0 112 96 0
+w 80 64 80 96 0
+L 80 64 80 32 2 0 false 5 0
+L 112 0 80 0 2 0 false 5 0
+L -16 0 -48 0 2 0 false 5 0
+L -48 64 -48 32 2 0 false 5 0
+w -48 64 -48 96 0
+w -16 0 -16 96 0
+w 48 0 48 96 0
+w 16 64 16 96 0
+L 16 64 16 32 2 0 false 5 0
+L 48 0 16 0 2 0 false 5 0
+L -208 0 -240 0 2 0 false 5 0
+L -240 64 -240 32 2 0 false 5 0
+w -240 64 -240 96 0
+w -208 0 -208 96 0
+w -272 0 -272 96 0
+w -304 64 -304 96 0
+L -304 64 -304 32 2 0 false 5 0
+L -272 0 -304 0 2 0 false 5 0
+L -144 0 -176 0 2 0 false 5 0
+L -176 64 -176 32 2 0 false 5 0
+w -176 64 -176 96 0
+w -144 0 -144 96 0
+w -80 0 -80 96 0
+w -112 64 -112 96 0
+L -112 64 -112 32 2 0 false 5 0
+L -80 0 -112 0 2 0 false 5 0
+L -592 0 -624 0 2 0 false 5 0
+L -624 64 -624 32 2 0 false 5 0
+w -624 64 -624 96 0
+w -592 0 -592 96 0
+w -656 0 -656 96 0
+w -688 64 -688 96 0
+L -688 64 -688 32 2 0 false 5 0
+L -656 0 -688 0 2 0 false 5 0
+w -720 0 -720 96 0
+w -752 64 -752 96 0
+L -752 64 -752 32 2 0 false 5 0
+L -720 0 -752 0 2 0 false 5 0
+L -464 0 -496 0 2 0 false 5 0
+L -496 64 -496 32 2 0 false 5 0
+w -496 64 -496 96 0
+w -464 0 -464 96 0
+w -528 0 -528 96 0
+w -560 64 -560 96 0
+L -560 64 -560 32 2 0 false 5 0
+L -528 0 -560 0 2 0 false 5 0
+L -400 0 -432 0 2 0 false 5 0
+L -432 64 -432 32 2 0 false 5 0
+w -432 64 -432 96 0
+w -400 0 -400 96 0
+w -336 0 -336 96 0
+w -368 64 -368 96 0
+L -368 64 -368 32 2 0 false 5 0
+L -336 0 -368 0 2 0 false 5 0
