@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import Html from "./Html";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -54,11 +55,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<Html>
 			<head>
 				<meta name="mobile-web-app-capable" content="yes" />
 			</head>
 			<body className={`${inter.className} is-preload`}>{children}</body>
-		</html>
+		</Html>
 	);
 }
