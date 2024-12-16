@@ -1,7 +1,7 @@
 <h1 align="center">Hi 🖖, I'm Gabriel Logan</h1>
 <h3 align="center">Full Stack Developer</h3>
 
-<h3 align="center">Me: <a href="https://gabriel-logan.github.io/gabriel-logan/" target="_blank">gabriel-logan.github.io</a></h3>
+<h3 align="center">Me: <a href="https://gabriel-logan.github.io/gabriel-logan/en" target="_blank">gabriel-logan.github.io</a></h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=gabriel-logan&label=Profile%20views&color=0e75b6&style=flat" alt="gabriel-logan" /> </p>
 
