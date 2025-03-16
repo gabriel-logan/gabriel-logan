@@ -9,15 +9,11 @@
 
 - 🔭 I’m currently working on [Math Library](https://github.com/gabriel-logan/Math_Lib)
 
-- 🌱 Page made to compress videos **https://video-compressor-sigma.vercel.app/**
+- 🌱 Page made to compress videos [Video Compressor](https://video-compressor-sigma.vercel.app)
 
 - 👯 I’m looking to collaborate on [Multiform-validator](https://github.com/gabriel-logan/multiform-validator)
 
 - 🤝 I’m looking for help with [Multiform-validator Doc](https://gabriel-logan.github.io/multiform-validator/)
-
-- 📄 2Devs Page [https://2devs.tech/](https://2devs.tech/)
-
-- 👨‍💻 2Devs Apk Downloads [https://2devs.tech/ApksDownloads](https://2devs.tech/ApksDownloads)
 
 - 🌐 Translate your json files [Azure Translator Page](https://azuretranslatorcode.vercel.app)
 
