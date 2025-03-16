@@ -13,7 +13,7 @@
 
 - 👯 I’m looking to collaborate on [Multiform-validator](https://github.com/gabriel-logan/multiform-validator)
 
-- 🤝 I’m looking for help with [Multiform-validator Doc](https://gabriel-logan.github.io/multiform-validator/)
+- 🤝 I’m looking for help with [Multiform-validator Doc](https://multiformvalidator.netlify.app/)
 
 - 🌐 Translate your json files [Azure Translator Page](https://azuretranslatorcode.vercel.app)
 
